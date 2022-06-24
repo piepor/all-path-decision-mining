@@ -1,0 +1,235 @@
+p_1 - SUCCESS
+Rows with invisible activity as target: 40/100
+Rules:
+skip_1: is:present = True
+trans_B: is:present = False
+
+p_4 - FAIL
+Rows with invisible activity as target: 55/69
+
+p_3 - SUCCESS
+Rows with invisible activity as target: 55/123
+Rules:
+skip_2: skip:everything = True || amount <= 398.2698426478454
+trans_C: skip:everything = False && amount > 398.2698426478454 || skip:everything = True && amount <= 987.2944770624449 && amount > 32.81674847395411 || skip:everything = False && amount <= 398.2698426478454 && amount > 32.81674847395411
+
+p_8 - SUCCESS
+Rows with invisible activity as target: 37/137
+Rules:
+skip_4: loan:accepted = recheck
+trans_F: loan:accepted = yes
+trans_G: loan:accepted = no
+
+p_1 - SUCCESS
+Rows with invisible activity as target: 40/100
+Rules:
+skip_1: is:present = True
+trans_B: is:present = False
+
+p_1 - FAIL
+Rows with invisible activity as target: 47/107
+
+p_1 - FAIL
+Rows with invisible activity as target: 47/107
+
+p_4 - SUCCESS
+Rows with invisible activity as target: 55/81
+Rules:
+skip_3: skip:everything = True || doc:is:updated = True || doc:is:updated = False && skip:everything = False
+trans_D: doc:is:updated = False && skip:everything = False
+
+p_3 - FAIL
+Rows with invisible activity as target: 55/134
+
+p_8 - FAIL
+Rows with invisible activity as target: 37/137
+
+p_1 - SUCCESS
+Rows with invisible activity as target: 40/100
+Rules:
+trans_B: is:present = False
+skip_1: is:present = True
+
+p_4 - FAIL
+Rows with invisible activity as target: 55/69
+
+p_3 - SUCCESS
+Rows with invisible activity as target: 55/123
+Rules:
+skip_2: skip:everything = True || amount <= 398.2698426478454
+trans_C: skip:everything = False && amount > 398.2698426478454 || skip:everything = True && amount <= 987.2944770624449 && amount > 32.81674847395411 || skip:everything = False && amount <= 398.2698426478454 && amount > 32.81674847395411
+
+p_8 - SUCCESS
+Rows with invisible activity as target: 37/137
+Rules:
+trans_F: loan:accepted = yes
+skip_4: loan:accepted = recheck
+trans_G: loan:accepted = no
+
+p_1 - SUCCESS
+Rows with invisible activity as target: 40/100
+Rules:
+skip_1: is:present = True
+trans_B: is:present = False
+
+p_4 - FAIL
+Rows with invisible activity as target: 55/69
+
+p_3 - SUCCESS
+Rows with invisible activity as target: 55/123
+Rules:
+skip_2: skip:everything = True || amount <= 398.2698426478454
+trans_C: skip:everything = False && amount > 398.2698426478454 || skip:everything = False && amount <= 398.2698426478454 && amount > 32.81674847395411 || skip:everything = True && amount <= 987.2944770624449 && amount > 32.81674847395411
+
+p_8 - SUCCESS
+Rows with invisible activity as target: 37/137
+Rules:
+trans_G: loan:accepted = no
+trans_F: loan:accepted = yes
+skip_4: loan:accepted = recheck
+
+p_1 - SUCCESS
+Rows with invisible activity as target: 40/100
+Rules:
+trans_B: is:present = False
+skip_1: is:present = True
+
+p_4 - FAIL
+Rows with invisible activity as target: 55/69
+
+p_3 - SUCCESS
+Rows with invisible activity as target: 55/123
+Rules:
+skip_2: skip:everything = True || amount <= 398.2698426478454
+trans_C: skip:everything = False && amount > 398.2698426478454 || skip:everything = False && amount <= 398.2698426478454 && amount > 32.81674847395411 || skip:everything = True && amount <= 987.2944770624449 && amount > 32.81674847395411
+
+p_8 - SUCCESS
+Rows with invisible activity as target: 37/137
+Rules:
+trans_F: loan:accepted = yes
+trans_G: loan:accepted = no
+skip_4: loan:accepted = recheck
+
+p_1 - FAIL
+Rows with invisible activity as target: 40/100
+
+p_4 - FAIL
+Rows with invisible activity as target: 55/69
+
+p_3 - FAIL
+Rows with invisible activity as target: 55/123
+
+p_8 - FAIL
+Rows with invisible activity as target: 37/137
+
+p_1 - FAIL
+Rows with invisible activity as target: 47/107
+
+p_1 - FAIL
+Rows with invisible activity as target: 47/107
+
+p_4 - SUCCESS
+Rows with invisible activity as target: 55/81
+Rules:
+skip_3: doc:is:updated = True || skip:everything = True || doc:is:updated = False && skip:everything = False
+trans_D: doc:is:updated = False && skip:everything = False
+
+p_3 - FAIL
+Rows with invisible activity as target: 55/134
+
+p_8 - FAIL
+Rows with invisible activity as target: 37/137
+
+p_2 - FAIL
+Rows with invisible activity as target: 306079/306079
+
+p_5 - SUCCESS
+Rows with invisible activity as target: 59031/138891
+Rules:
+skip_5: amount <= 39.35 || amount > 39.35
+trans_C: amount <= 39.35 || amount > 39.35
+
+p_15 - FAIL
+Rows with invisible activity as target: 198782/198782
+
+p_3 - SUCCESS
+Rows with invisible activity as target: 128728/128728
+Rules:
+skip_3: amount <= 39.35 || amount > 39.35
+skip_4: amount <= 39.35 || amount > 39.35
+
+p_13 - SUCCESS
+Rows with invisible activity as target: 59013/59568
+Rules:
+skip_9: org:resource = 537 && amount > 36.0 || org:resource = 536 && amount > 36.0 || expense <= 25.92 && amount > 36.0 || org:resource = 558 && amount > 36.0 || org:resource = 36 && expense > 25.92 && amount > 36.0 || org:resource = 56 && expense <= 26.0 && expense > 25.92 && amount > 36.0 || org:resource = 39 && expense > 25.92 && amount > 36.0 || org:resource = 49 && expense <= 26.49 && expense > 25.92 && amount > 36.0 || org:resource = 11 && expense <= 29.1 && expense > 25.92 && amount > 36.0 || amount <= 36.0 || amount > 36.0 || expense > 29.1
+trans_G: expense <= 26.49 && expense > 25.92 || org:resource = 36 && expense > 25.92 || expense <= 25.92 && amount > 36.0 || org:resource = 52 && expense > 25.92 && amount > 36.0 || org:resource = 858 && expense > 25.92 && amount > 36.0 || org:resource = 567 && expense > 25.92 && amount > 36.0 || org:resource = 53 && expense > 25.92 && amount > 36.0 || org:resource = 550 && expense > 25.92 && amount > 36.0 || org:resource = 29 && expense > 25.92 && amount > 36.0 || org:resource = 44 && expense > 25.92 && amount > 36.0 || org:resource = 847 && expense > 25.92 && amount > 36.0 || org:resource = 538 && expense > 25.92 && amount > 36.0 || org:resource = 46 && expense > 25.92 && amount > 36.0 || org:resource = 856 && expense > 25.92 && amount > 36.0 || org:resource = 31 && expense > 25.92 && amount > 36.0 || org:resource = 557 && expense > 25.92 && amount > 36.0 || org:resource = 63 && expense > 25.92 && amount > 36.0 || org:resource = 37 && expense > 25.92 && amount > 36.0 || org:resource = 30 && expense > 25.92 && amount > 36.0 || org:resource = 559 && expense > 25.92 && amount > 36.0 || org:resource = 541 && expense > 25.92 && amount > 36.0 || org:resource = 849 && expense > 25.92 && amount > 36.0 || org:resource = 59 && expense > 25.92 && amount > 36.0 || amount <= 36.0 || expense > 25.92
+
+p_14 - SUCCESS
+Rows with invisible activity as target: 59013/60012
+Rules:
+trans_H: expense <= 26.49 && expense > 25.92 || amount <= 42.5 && expense > 25.92 || expense <= 28.0 && expense > 25.92 || expense <= 27.8 && expense > 25.92 || expense <= 30.0 && expense > 25.92 || lastSent = P && expense <= 30.0 && expense > 25.92 || lastSent = P && expense > 25.92 || expense > 25.92 && amount > 36.0 || lastSent = N && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 566 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 20 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 16 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 558 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 565 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || expense <= 25.92 && amount > 36.0 || org:resource = 536 && lastSent = P && expense <= 30.0 && expense > 26.49 && amount > 36.0 || org:resource = 41 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 857 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 860 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 63 && lastSent = P && expense <= 30.0 && expense > 28.0 && amount > 36.0 || amount > 42.5 && expense > 30.0 || org:resource one of [0, 862, 864] || amount <= 36.0 || expense > 25.92
+skip_10: amount <= 68.77 && amount > 36.0 || expense <= 25.92 && amount > 36.0 || lastSent = P && expense <= 30.0 && expense > 25.92 || expense > 25.92 && amount > 36.0 || org:resource = 52 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 567 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 559 && lastSent = P && expense <= 30.0 && amount > 68.77 && expense > 25.92 || org:resource = 560 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 57 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 49 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 39 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 28 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 11 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 852 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 40 && lastSent = P && expense <= 27.8 && expense > 25.92 && amount > 36.0 || org:resource = 45 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 858 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 59 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 31 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 855 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 53 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 564 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 557 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 541 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 56 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 46 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 561 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 856 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 568 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 854 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 550 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 47 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || lastSent = C && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 30 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 537 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 50 && lastSent = P && expense <= 26.49 && expense > 25.92 && amount > 36.0 || org:resource = 29 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 538 && lastSent = P && expense <= 30.0 && expense > 25.92 && amount > 36.0 || org:resource = 0 || lastSent = N || amount <= 36.0 || amount > 36.0 || expense > 26.49
+
+p_19 - SUCCESS
+Rows with invisible activity as target: 59013/59909
+Rules:
+trans_I: expense <= 26.49 && expense > 25.92 || expense <= 28.0 && expense > 25.92 || expense <= 27.8 && expense > 25.92 || lastSent = P && expense <= 26.49 && expense > 25.92 || expense <= 30.0 && expense > 25.92 || lastSent = P && expense <= 30.0 && expense > 25.92 || lastSent = P && expense > 25.92 || org:resource = 47 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 565 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 536 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 857 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 63 && lastSent = P && expense <= 30.0 && expense > 28.0 || org:resource = 41 && lastSent = P && expense <= 30.0 && expense > 25.92 || expense <= 40.0 && expense > 30.0 || org:resource = 860 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 566 && lastSent = P && expense <= 30.0 && expense > 25.92 || lastSent = N && expense <= 30.0 && expense > 25.92 || org:resource = 20 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 16 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 0 || expense <= 25.92 || expense > 25.92
+skip_12: expense <= 30.0 && expense > 25.92 || lastSent = P && expense <= 30.0 && expense > 25.92 || lastSent = P && expense > 25.92 || org:resource = 558 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 30 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 559 && lastSent = P && expense <= 26.49 && expense > 25.92 || org:resource = 541 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 557 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 31 && lastSent = P && expense <= 30.0 && expense > 25.92 || lastSent = C && expense <= 26.49 && expense > 25.92 || org:resource = 53 && lastSent = P && expense <= 26.49 && expense > 25.92 || org:resource = 858 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 49 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 537 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 564 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 59 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 29 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 52 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 854 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 56 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 57 && lastSent = P && expense <= 30.0 && expense > 25.92 || expense > 40.0 || org:resource = 561 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 40 && lastSent = P && expense <= 27.8 && expense > 25.92 || org:resource = 28 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 50 && lastSent = P && expense <= 26.49 && expense > 25.92 || org:resource = 856 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 538 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 568 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 550 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 39 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 11 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 560 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 46 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 852 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 855 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 567 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 45 && lastSent = P && expense <= 30.0 && expense > 25.92 || org:resource = 0 || lastSent = N || expense <= 25.92 || expense > 25.92
+
+p_7 - SUCCESS
+Rows with invisible activity as target: 59013/63201
+Rules:
+trans_E: expense > 25.92 && amount > 36.0 || expense <= 25.92 && amount > 36.0 || amount <= 36.0
+skip_6: expense <= 25.92 && amount > 36.0 || expense > 25.92 && amount > 36.0 || amount <= 36.0
+
+p_26 - FAIL
+Rows with invisible activity as target: 0/59013
+
+p_1 - FAIL
+Rows with invisible activity as target: 0/4141
+
+p_12 - FAIL
+Rows with invisible activity as target: 7886/7886
+
+p_2 - FAIL
+Rows with invisible activity as target: 188053/188053
+
+p_5 - FAIL
+Rows with invisible activity as target: 18/79878
+
+p_15 - FAIL
+Rows with invisible activity as target: 80756/80756
+
+p_26 - FAIL
+Rows with invisible activity as target: 0/59013
+
+p_3 - FAIL
+Rows with invisible activity as target: 69715/69715
+
+p_7 - FAIL
+Rows with invisible activity as target: 0/4188
+
+p_1 - FAIL
+Rows with invisible activity as target: 0/4141
+
+p_12 - FAIL
+Rows with invisible activity as target: 9424/9424
+
+p_14 - FAIL
+Rows with invisible activity as target: 0/999
+
+p_19 - FAIL
+Rows with invisible activity as target: 0/896
+
+p_13 - FAIL
+Rows with invisible activity as target: 0/555
+
+p_2 - FAIL
+Rows with invisible activity as target: 188053/188053
+
+p_2 - FAIL
+Rows with invisible activity as target: 280819/280819
+
+p_2 - FAIL
+Rows with invisible activity as target: 280819/280819
+

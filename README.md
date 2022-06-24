@@ -1,2 +1,2 @@
-# all-path-decision-mining
-Implementation of the algorithm presented in "Leveraging Allowed Model Executions for Decision Mining
+# decision-mining
+Project to start a study on the decision mining topic, reproducing existing methods. Starting from decision point analysis
