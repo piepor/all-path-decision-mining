@@ -1,2 +1,2 @@
-# decision-mining
-Project to start a study on the decision mining topic, reproducing existing methods. Starting from decision point analysis
+# all-path-decision-mining
+Implementation of the algotrithm proposed in the paper "Leveraging Allowed Model Executions for Decision Mining"
